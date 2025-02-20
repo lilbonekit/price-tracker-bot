@@ -229,6 +229,9 @@ bot.on('message', async (ctx) => {
 💬 <a href="https://t.me/lilbonekit">Автор телеграм бота</a>`,
 		{
 			parse_mode: 'HTML',
+			link_preview_options: {
+				is_disabled: true,
+			},
 		}
 	)
 })

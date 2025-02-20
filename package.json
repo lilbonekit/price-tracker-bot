@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"predeploy": "npm install",
-		"start": "nodemon",
+		"start": "NODE_OPTIONS='--max-old-space-size=4096' nodemon",
 		"postdeploy": "echo 'Deployment finished!'"
 	},
 	"keywords": [],
